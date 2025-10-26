@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "eva0001",
+    "name": "Glider Making",
+    "type": "team",
+    "departments": ["Aeronautical"],
+    "maxTeamSize": 4,
+    "eventCode": "GLIDER001",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0002",
+    "name": "Parachuting",
+    "type": "team",
+    "departments": ["Aeronautical"],
+    "maxTeamSize": 4,
+    "eventCode": "PARA002",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0003",
+    "name": "Urban Lense",
+    "type": "team",
+    "departments": ["Architecture"],
+    "maxTeamSize": 4,
+    "eventCode": "URBAN003",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0004",
+    "name": "Quizzy Brainiacs",
+    "type": "team",
+    "departments": ["Architecture"],
+    "maxTeamSize": 4,
+    "eventCode": "QUIZ004",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0005",
+    "name": "Collage Making",
+    "type": "team",
+    "departments": ["Physics"],
+    "maxTeamSize": 4,
+    "eventCode": "COLLAGE005",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0006",
+    "name": "JunkGenie",
+    "type": "team",
+    "departments": ["Chemistry"],
+    "maxTeamSize": 4,
+    "eventCode": "JUNK006",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0007",
+    "name": "STEM: Shaping Tomorrow",
+    "type": "team",
+    "departments": ["B. Sc. (PCM)"],
+    "maxTeamSize": 4,
+    "eventCode": "STEM007",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0008",
+    "name": "Cad-A-Thon",
+    "type": "team",
+    "departments": ["Civil Engineering"],
+    "maxTeamSize": 4,
+    "eventCode": "CAD008",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0009",
+    "name": "Stick Structures",
+    "type": "team",
+    "departments": ["Civil Engineering"],
+    "maxTeamSize": 4,
+    "eventCode": "STICK009",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0010",
+    "name": "Secret Signals",
+    "type": "team",
+    "departments": ["Computer Science"],
+    "maxTeamSize": 4,
+    "eventCode": "SECRET010",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0011",
+    "name": "ArtifiCE",
+    "type": "team",
+    "departments": ["Computer Science"],
+    "maxTeamSize": 4,
+    "eventCode": "ARTIFICE011",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0012",
+    "name": "Troubling Shooting",
+    "type": "team",
+    "departments": ["Electrical & Electronics Engineering"],
+    "maxTeamSize": 4,
+    "eventCode": "TROUBLE012",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0013",
+    "name": "Model Making",
+    "type": "team",
+    "departments": ["Electrical & Electronics Engineering"],
+    "maxTeamSize": 4,
+    "eventCode": "MODEL013",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0014",
+    "name": "LASER MAZER",
+    "type": "team",
+    "departments": ["Electronics & Communications (EC)"],
+    "maxTeamSize": 4,
+    "eventCode": "LASER014",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0015",
+    "name": "VisionRace",
+    "type": "team",
+    "departments": ["Electronics & Communications (EC)"],
+    "maxTeamSize": 4,
+    "eventCode": "VISION015",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0016",
+    "name": "Mobile Marvels",
+    "type": "team",
+    "departments": ["Information Science (IS)"],
+    "maxTeamSize": 4,
+    "eventCode": "MOBILE016",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0017",
+    "name": "Urban Pulse",
+    "type": "team",
+    "departments": ["Information Science (IS)"],
+    "maxTeamSize": 4,
+    "eventCode": "URBAN017",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0018",
+    "name": "Bplan",
+    "type": "team",
+    "departments": ["MBA"],
+    "maxTeamSize": 4,
+    "eventCode": "BPLAN018",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0019",
+    "name": "Battle of Brains",
+    "type": "team",
+    "departments": ["MCA"],
+    "maxTeamSize": 4,
+    "eventCode": "BRAIN019",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0020",
+    "name": "Decode & Discover",
+    "type": "team",
+    "departments": ["MCA"],
+    "maxTeamSize": 4,
+    "eventCode": "DECODE020",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0021",
+    "name": "WELDED STRUCTURE BUILDING",
+    "type": "team",
+    "departments": ["Mechanical Engineering"],
+    "maxTeamSize": 4,
+    "eventCode": "WELDED021",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0022",
+    "name": "MachFrame",
+    "type": "team",
+    "departments": ["Mechanical Engineering"],
+    "maxTeamSize": 4,
+    "eventCode": "MACH022",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0023",
+    "name": "Hackthon",
+    "type": "team",
+    "departments": ["Mechanical Engineering"],
+    "maxTeamSize": 4,
+    "eventCode": "HACK023",
+    "participants": [],
+    "teams": []
+  },
+  {
+    "_id": "eva0024",
+    "name": "Invictus",
+    "type": "team",
+    "departments": ["AI-ML"],
+    "maxTeamSize": 4,
+    "eventCode": "INVICTUS024",
+    "participants": [],
+    "teams": []
+  }
+]
