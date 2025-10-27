@@ -6,6 +6,8 @@ const userSchema = new mongoose.Schema(
     _id: {
       type: String, // Custom Avalanche ID (ava0001, ava0002…)
     },
+
+    // 🧍 Basic user info
     name: {
       type: String,
       required: true,
@@ -21,9 +23,26 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    department: { 
-      type: String, 
-    }, // optional deptCode
+    
+    // 📱 Phone number field (ADDED - was missing!)
+    pNumber: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+
+    // 🏫 Academic details (FIXED field names to match controller)
+    institute: {  // ✅ Changed from 'institution' to 'institute'
+      type: String,
+      required: true,
+      trim: true,
+    },
+    rollNumber: {  // ✅ Changed from 'usn' to 'rollNumber'
+      type: String,
+      required: true,
+      trim: true,
+      uppercase: true,
+    },
 
     // 🔹 OTP for registration/verification
     otp: {
@@ -40,14 +59,14 @@ const userSchema = new mongoose.Schema(
     // 💳 Payment status flag
     payment: {
       type: Boolean,
-      default: false, // false by default
+      default: false,
     },
 
-    // 🔹 Password reset fields
+    // 🔑 Password reset fields
     resetOTP: {
       type: String,
     },
-    resetOTPExpires: { // ✅ updated name to match your controllers
+    resetOTPExpires: {
       type: Date,
     },
   },

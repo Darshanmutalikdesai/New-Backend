@@ -1,20 +1,69 @@
 import mongoose from "mongoose";
 
-const paperPresentationSchema = new mongoose.Schema({
-  eventName: { type: String, default: "Paper Presentation" },
-  mode: { type: String, enum: ["Online", "Offline", "Hybrid"], default: "Hybrid" },
-  department: { type: String, required: true },
-  team: [
-    {
-      userId: { type: String, required: true },
-      name: { type: String },
-      email: { type: String },
-      isVerified: { type: Boolean, default: false },
-      payment: { type: Boolean, default: false },
+const paperPresentationSchema = new mongoose.Schema(
+  {
+    department: {
+      type: String,
+      required: true,
+      enum: [
+        "Aeronautical",
+        "Architecture",
+        "Physics",
+        "Chemistry",
+        "B. Sc. (PCM)",
+        "Mathematics",
+        "Civil Engineering",
+        "Computer Science",
+        "Electronics & Communications (EC)",
+        "Information Science (IS)",
+        "MBA",
+        "MCA",
+        "Mechanical Engineering",
+        "AI-ML",
+      ],
     },
-  ],
-  createdAt: { type: Date, default: Date.now },
-});
+    team: [
+      {
+       
+        avalancheId: {
+          type: String,
+          required: true, // This is the main identifier
+        },
+        name: {
+          type: String,
+          required: true,
+        },
+        email: {
+          type: String,
+          required: true,
+        },
+        isVerified: {
+          type: Boolean,
+          default: false,
+        },
+        hasPaid: {
+          type: Boolean,
+          default: false,
+        },
+      },
+    ],
+    mode: {
+      type: String,
+      required: true,
+      enum: ["Online", "Offline"],
+    },
+  },
+  {
+    timestamps: true, // Automatically adds createdAt and updatedAt
+  }
+);
 
-const PaperPresentation = mongoose.model("PaperPresentation", paperPresentationSchema);
+// Index for faster queries
+paperPresentationSchema.index({ department: 1, "team.avalancheId": 1 });
+
+const PaperPresentation = mongoose.model(
+  "Paperevent",
+  paperPresentationSchema
+);
+
 export default PaperPresentation;

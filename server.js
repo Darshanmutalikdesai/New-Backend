@@ -44,6 +44,7 @@ app.use((req, res, next) => {
 app.use("/api/users", userRoutes);
 app.use("/api/events", eventRoutes);
 app.use("/api/paper-presentation", paperPresentationRoutes);
+app.use("/api/events", eventRoutes);
 
 // ✅ Health Check
 app.get("/", (req, res) => {

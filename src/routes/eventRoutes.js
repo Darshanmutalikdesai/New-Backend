@@ -1,12 +1,7 @@
+// eventRoutes.js
 import express from "express";
-import { registerForEvent, exportCSV } from "../controllers/eventController.js";
+import { registerTeam } from "../controllers/eventRegisterController.js";
 
 const router = express.Router();
-
-// Register solo/team
-router.post("/register/:id", registerForEvent);
-
-// Export CSV for admin
-router.get("/export", exportCSV);
-
+router.post("/:id/register", registerTeam);
 export default router;
