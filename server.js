@@ -19,9 +19,9 @@ app.use(express.json()); // JSON parsing
 // ✅ Manual CORS headers (no 'cors' package needed)
 app.use((req, res, next) => {
   const allowedOrigins = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
-    "https://avalanche.git.edu" // <-- replace with your deployed frontend URL
+'https://avalanche-25.vercel.app',
+    'http://localhost:3000',  // For local development
+    'http://localhost:5173' // <-- replace with your deployed frontend URL
   ];
 
   const origin = req.headers.origin;

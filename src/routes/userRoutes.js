@@ -8,6 +8,7 @@ import {
   verifyResetOTP,
   getProfile, // 👈 add this
   updatePaymentStatus 
+  
 } from "../controllers/userController.js";
 import { protect } from "../middlewares/authMiddleware.js";
 

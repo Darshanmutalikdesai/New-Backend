@@ -62,7 +62,7 @@ const paperPresentationSchema = new mongoose.Schema(
 paperPresentationSchema.index({ department: 1, "team.avalancheId": 1 });
 
 const PaperPresentation = mongoose.model(
-  "Paperevent",
+  "Paper",
   paperPresentationSchema
 );
 
